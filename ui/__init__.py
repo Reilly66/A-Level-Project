@@ -34,7 +34,7 @@ def generate_option_menu(title, *functions):
 
 
 def start_main_ui():
-    generate_option_menu("math maker", pure_calculator_ui, stats_calculator_ui, mechanics_calculator_ui)
+    generate_option_menu("math maker", pure_calculator_ui, stats_calculator_ui, mechanics_calculator_ui, file_manager_ui)
 
 
 def pure_calculator_ui():
@@ -51,3 +51,7 @@ def mechanics_calculator_ui():
     """Mechanics calculator"""
     print("Mechanics calculator")
 
+
+def file_manager_ui():
+    """File manager"""
+    print("File manager")
